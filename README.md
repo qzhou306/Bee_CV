@@ -6,3 +6,5 @@
     - yolov3_training_3000.weights: https://drive.google.com/file/d/1-FnARM8dHgRvSbfTx92ujmazAbZu52i3/view?usp=sharing
     - yolov3_training_4000.weights: https://drive.google.com/file/d/1dUFa8WoVDONd93pn8XSJutW2EpDvVbV3/view?usp=sharing
 
+Yolo Fastest/Yolo Tiny: https://github.com/dog-qiuqiu/Yolo-Fastest
+https://github.com/dog-qiuqiu/MobileNet-Yolo
