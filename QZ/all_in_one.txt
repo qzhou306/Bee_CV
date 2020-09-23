@@ -1,0 +1,17 @@
+All-in-one implementation
+
+Off-line solution
+1. use camera only to capture video
+2. Process and test video/images offline
+
+Real-time solution #1
+1. YOLO fastest will be better in speed than YOLOv3 and in accuracy than YOLO tiny for the 2 step object detection
+2. Rasberry Pi : https://www.pyimagesearch.com/2020/01/27/yolo-and-tiny-yolo-object-detection-on-the-raspberry-pi-and-movidius-ncs/
+3. Convert video to image: save all images vs. save it in a 3D array and get overwritten every frame? 
+4. Frame by frame on the big image
+5. Run YOLO big image model to generate json files for bounding boxes and probability 
+6. Crop bounding boxes from step 2 and create chip images (naming convention - bee_imagefilename_number)
+7. Run "Multiple Images at Once":  !./darknet detector test $objPath $configPath $weightsPath -ext_output -dont_show -out result.json < $val_img_list > result.txt
+
+
+
